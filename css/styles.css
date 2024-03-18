@@ -446,7 +446,6 @@ h2 {
 
 }
 
-/* ESTILOS PARA LA SECCIÓN "HABLEMOS 2" */
 /* ESTILOS PARA LA SECCIÓN "HABLEMOS-2" */
 #hablemos-2 {
     background-color: white; /* Fondo blanco */
@@ -845,19 +844,19 @@ color: white;
 
 /* Colores de fondo específicos para cada sección */
 #busqueda-constante {
-    background-color: #E8F0F2; /* Color de fondo claro para "Búsqueda Constante" */
+    background-color: #7A82D1; /* Color de fondo claro para "Búsqueda Constante" */
 }
 
 #tecnologia-avanzada {
-    background-color: #D1E8E2; /* Color de fondo claro para "Tecnología Avanzada" */
+    background-color: #9DA0DD; /* Color de fondo claro para "Tecnología Avanzada" */
 }
 
 #orientacion-estrategica {
-    background-color: #B8D8D8; /* Color de fondo claro para "Orientación Estratégica" */
+    background-color: #BFBEE9; /* Color de fondo claro para "Orientación Estratégica" */
 }
 
 #beneficio-sostenible {
-    background-color: #97C1C1; /* Color de fondo claro para "Beneficio Sostenible" */
+    background-color: #DFDEF4; /* Color de fondo claro para "Beneficio Sostenible" */
 }
 
 .seccion-metodologia .imagen-derecha img:hover {
@@ -870,6 +869,13 @@ color: white;
     color: black;
 }
 
+.btn.btn-primary {
+    border-radius: 50px;
+    background-color: #084BB9;
+    color: white; /* Cambia el color del texto si es necesario para que sea legible */
+    /* Otros estilos de texto, tamaño, margen, etc., según tus necesidades */
+    padding: 10px 20px; /* Ajusta el relleno según el tamaño deseado del botón */
+}
 
 /*MAPA (IFRAME)*/
 
