@@ -1,0 +1,153 @@
+/*ESTILOS GENERALES PARA PÁGINAS QUE NO SON EL HOME*/
+/*Encabezados de pagina*/
+
+#encabezado-pagina {
+    background-color: #084BB9;
+
+    /* Establece el color de fondo a blanco */
+    color: white;
+    text-align: center;
+
+    /* Centra el texto dentro de la sección */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-bottom: 1px solid #ccc;
+}
+
+/*Bloque 2 de pagina*/
+
+#bloque-2-pagina {
+    width: 100%;
+    padding: 100px 10% 25px 10%;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+
+    h2 {
+        color: #084BB9;
+    }
+
+    p {
+        color: black;
+    }
+}
+
+/*Bloque 3 de pagina*/
+
+#bloque-3-pagina {
+    width: 100%;
+    padding: 25px;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        /* Asegura un espaciado uniforme */
+        margin: 0 10%;
+        max-width: 80%;
+    }
+
+    .column {
+        flex: 0 1 calc(50% - 20px);
+
+        /* Calcula el ancho para 2 columnas, restando el gap */
+        background-color: white;
+
+        /* Fondo blanco para las tarjetas */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+        /* Sombra suave para profundidad */
+        border-radius: 50px;
+
+        /* Bordes redondeados */
+        overflow: hidden;
+
+        /* Asegura que el contenido no desborde los bordes redondeados */
+        display: flex;
+
+        /* Habilita flexbox para alinear el contenido */
+        flex-direction: column;
+
+        /* Organiza el contenido verticalmente */
+        align-items: center;
+
+        /* Centra el contenido horizontalmente */
+        padding: 20px;
+
+        /* Espaciado interno */
+        transition: transform 0.3s ease-in-out;
+
+        /* Transición suave al hacer hover */
+
+        &:hover {
+            transform: translateY(-5px);
+
+            /* Eleva la tarjeta ligeramente al hacer hover */
+        }
+    }
+
+    img {
+        max-width: 80%;
+
+        /* Reduce el tamaño de la imagen para que encaje bien en la tarjeta */
+        margin-top: 20px;
+
+        /* Espacio arriba de la imagen */
+        border-radius: 50px;
+
+        /* Bordes ligeramente redondeados para las imágenes */
+    }
+
+    h3 {
+        color: #084BB9;
+
+        /* Color azul para los títulos */
+        margin: 20px 0;
+
+        /* Espacio arriba y abajo del título */
+    }
+
+    p {
+        text-align: center;
+
+        /* Asegura que el texto esté centrado */
+        margin-bottom: 20px;
+
+        /* Espacio debajo del párrafo */
+        color: black;
+    }
+}
+
+@media (max-width: 768px) {
+    #bloque-3-pagina .column {
+        flex: 0 1 100%;
+
+        /* Hace que las tarjetas ocupen todo el ancho en pantallas pequeñas */
+    }
+}
+
+/*Bloque 4 pagina*/
+
+#bloque-4-pagina {
+    background-color: #EF2D2D;
+    padding: 50px 10%;
+
+    h2,
+    ol {
+        color: white;
+    }
+}
+
+ul,
+p {
+    color: white;
+}
+

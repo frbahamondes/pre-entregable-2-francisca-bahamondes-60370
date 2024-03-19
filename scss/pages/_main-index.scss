@@ -1,0 +1,720 @@
+main {
+    background-image: url("../images/fondos/patron-fondo-pelaje-blanco-25.png");
+}
+
+/* ESTILOS PARA LA SECCIÓN PRINCIPAL (DEL HOME) */
+
+#bloque-principal {
+    display: flex;
+    justify-content: space-between;
+
+    /* Asegura que el texto e imagen ocupen los extremos de la sección */
+    align-items: center;
+
+    /* Alinea verticalmente el contenido de ambos divs */
+    padding: 10%;
+
+    /* Añade un poco de espacio alrededor para evitar que el contenido toque los bordes */
+    background-color: #084BB9;
+
+    /* Color de fondo azul */
+    color: white;
+
+    /* Cambia el color del texto a blanco */
+}
+
+.texto-izquierda {
+    max-width: 50%;
+
+    /* Limita el ancho del texto para evitar que ocupe todo el ancho disponible */
+    padding-right: 20px;
+
+    /* Añade espacio a la derecha para separar el texto de la imagen */
+}
+
+#imagen-bloque-principal {
+    width: 100%;
+
+    /* Asegura que la imagen ocupe todo el ancho de su contenedor */
+    height: 100%;
+
+    /* Ajusta la altura para que la imagen intente cubrir todo el espacio vertical disponible */
+    object-fit: cover;
+
+    /* Asegura que la imagen cubra completamente el espacio sin distorsionarse */
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+
+    /* Ajusta según la necesidad de bordes redondeados */
+
+    &:hover {
+        transition: transform 0.3s ease-in-out;
+        transform: scale(1.05);
+
+        /*Aumenta ligeramente el tamaño al pasar el mouse  pero me ocurre que pasa por arriba del nav bar*/
+    }
+}
+
+/*----PUSE DOS OPIONES DE BOTONES UNO COMO BUTTON Y OTRO COMO ANCLA CON LOS MISMOS ESTILOS PARA QUE ME QUEDEN LOS DOS EJEMPLOS----*/
+
+button {
+    margin-top: 10px;
+
+    /* Añade un poco de espacio entre los botones y el párrafo */
+    margin-right: 20px;
+    padding: 10px 20px;
+
+    /* Añade padding para hacer los botones más grandes y fáciles de clickear */
+    border: none;
+
+    /* Elimina el borde por defecto de los botones */
+    background-color: #EF2D2D;
+
+    /* Color de fondo para los botones */
+    color: white;
+
+    /* Color de texto para los botones */
+    cursor: pointer;
+
+    /* Cambia el cursor a un puntero para indicar que es clickeable */
+    border-radius: 50px;
+
+    &:hover {
+        background-color: white;
+
+        /* Oscurece el botón al pasar el mouse para indicar interactividad */
+        color: #084BB9;
+        font-weight: bold;
+    }
+}
+
+/*BOTÓN CREADO COMO ANCLA EN EL HOME*/
+
+.button {
+    margin-top: 10px;
+
+    /* Añade un poco de espacio entre los botones y el párrafo */
+    margin-right: 20px;
+    padding: 10px 20px;
+
+    /* Añade padding para hacer los botones más grandes y fáciles de clickear */
+    border: none;
+
+    /* Elimina el borde por defecto de los botones */
+    background-color: #EF2D2D;
+
+    /* Color de fondo para los botones */
+    color: white;
+
+    /* Color de texto para los botones */
+    cursor: pointer;
+
+    /* Cambia el cursor a un puntero para indicar que es clickeable */
+    border-radius: 50px;
+    text-decoration: none;
+
+    &:hover {
+        background-color: white;
+
+        /* Oscurece el botón al pasar el mouse para indicar interactividad */
+        color: #084BB9;
+        font-weight: bold;
+    }
+}
+
+/*ESTILOS DE TÍTULOS*/
+
+h2 {
+    font-weight: bold;
+}
+
+/*ESTILOS PARA LA SEGUNDA SECCIÓN DEL HOME*/
+/* Estilos para la sección general y el título */
+
+#bloque-2 {
+    padding: 20px;
+    background-color: white;
+
+    /* Puedes cambiar el color de fondo según tu diseño */
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+#h2-centrado {
+    text-align: center;
+    margin-bottom: 50px;
+
+    /* Espacio debajo del título */
+}
+
+#bloque-2 {
+    #h2-centrado {
+        color: #084BB9;
+    }
+
+    p {
+        color: black;
+    }
+}
+
+/* Estilos para el contenedor y las columnas */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+    /* Permite que las columnas se ajusten y envuelvan según el ancho de la pantalla */
+    justify-content: space-around;
+
+    /* Distribuye las columnas uniformemente con espacio alrededor */
+    gap: 20px;
+
+    /* Espacio entre columnas y filas */
+}
+
+.column-1,
+.column-2,
+.column-3,
+.column-4 {
+    flex: 1;
+
+    /* Las columnas crecen para llenar el espacio disponible */
+    min-width: 250px;
+
+    /* Mínimo ancho para las columnas, evita que sean demasiado estrechas */
+    background-color: white;
+
+    /* Fondo blanco para las columnas */
+    padding: 20px;
+
+    /* Espaciado interno */
+    border-radius: 50px;
+
+    /* Bordes redondeados */
+}
+
+.column-1:hover,
+.column-2:hover,
+.column-3:hover,
+.column-4:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    /* Sombra suave para efecto de profundidad */
+}
+
+.column-1 h3:hover,
+.column-2 h3:hover,
+.column-3 h3:hover,
+.column-4 h3:hover {
+    color: #084BB9;
+}
+
+.column-1 h3,
+.column-2 h3,
+.column-3 h3,
+.column-4 h3,
+.column-1 p,
+.column-2 p,
+.column-3 p,
+.column-4 p,
+.column-1 button,
+.column-2 button,
+.column-3 button,
+.column-4 button {
+    margin-bottom: 10px;
+
+    /* Espacio entre los elementos dentro de cada columna */
+}
+
+.boton-saber-mas:hover {
+    background-color: #0056b3;
+
+    /* Color al pasar el ratón por encima */
+    color: white;
+    font-weight: bold;
+}
+
+/*ESTILOS PARA LA TERCERA SECCIÓN DEL HOME*/
+
+#bloque-3 {
+    background-color: rgba(8, 75, 185, 0.1);
+
+    /* Color #EF2D2D con 50% de transparencia */
+
+    p {
+        color: black;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        /* Añade un espacio entre las columnas */
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+#imagen-bloque-3 {
+    width: 100%;
+
+    /* Asegura que la imagen sea responsiva y no exceda el ancho de su contenedor */
+    height: auto;
+
+    /* Mantiene la proporción de la imagen ajustando su altura automáticamente */
+    display: block;
+
+    /* Elimina cualquier espacio extra debajo de la imagen */
+    object-fit: cover;
+
+    /* Asegura que la imagen cubra completamente el espacio sin distorsionarse */
+    margin: 0 auto;
+
+    /* Centra la imagen horizontalmente dentro de su contenedor */
+    border-radius: 50px;
+
+    /* Opcional: Añade bordes redondeados a la imagen si lo deseas */
+
+    &:hover {
+        transition: transform 0.3s ease-in-out;
+        transform: scale(1.05);
+
+        /*Aumenta ligeramente el tamaño al pasar el mouse  pero me ocurre que pasa por arriba del nav bar*/
+    }
+}
+
+#bloque-3 {
+    h2 {
+        color: #084BB9;
+
+        /* Establece el color del texto a un azul específico */
+    }
+
+    .column {
+        flex: 1;
+        max-width: 50%;
+
+        /* Limita el ancho máximo de las columnas para evitar que sean demasiado anchas */
+        padding: 20px;
+
+        /* Añade algo de padding para no tener el texto pegado a los bordes */
+    }
+
+    .imagen-centrada img {
+        max-width: 100%;
+
+        /* Hace que la imagen sea responsiva */
+        height: auto;
+
+        /* Mantiene la proporción de la imagen */
+        display: block;
+
+        /* Evita que la imagen tenga espacio extra debajo */
+        margin: 0 auto;
+
+        /* Centra la imagen horizontalmente */
+    }
+}
+
+@media (max-width: 768px) {
+    #bloque-3 {
+        .container {
+            flex-direction: column;
+        }
+
+        .column {
+            max-width: 100%;
+
+            /* Permite que las columnas ocupen todo el ancho disponible */
+        }
+    }
+}
+
+/*ESTILOS PARA LA CUARTA SECCIÓN DEL HOME*/
+
+#bloque-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    background-color: #084BB9;
+    color: white;
+}
+
+#carouselTestimonials .carousel-item .fw-bold {
+    color: #ffffff;
+
+    /* Establece el color de texto a blanco */
+}
+
+#bloque-4 h2 {
+    display: block;
+    width: 100%;
+    max-height: 200px;
+}
+
+/* ESTILOS PARA LA SECCIÓN "HABLEMOS" */
+
+#hablemos {
+    background-color: none;
+
+    /* Color #EF2D2D con 50% de transparencia */
+    padding: 40px 20px;
+
+    /* Espaciado interno */
+    display: flex;
+    flex-direction: column;
+
+    /* Organiza los elementos en una columna */
+    align-items: center;
+
+    /* Centra los elementos horizontalmente */
+    gap: 20px;
+
+    /* Espacio entre elementos */
+
+    h2 {
+        color: #084BB9;
+
+        /* Color del texto */
+        margin-bottom: 20px;
+
+        /* Espacio debajo del título */
+    }
+
+    p {
+        text-align: center;
+
+        /* Centra el texto */
+        max-width: 600px;
+
+        /* Máximo ancho del párrafo */
+        margin-bottom: 30px;
+
+        /* Espacio debajo del párrafo */
+        color: black;
+    }
+
+    form {
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+
+        /* Máximo ancho del formulario */
+        display: flex;
+        flex-direction: column;
+
+        /* Organiza los elementos del formulario en una columna */
+        gap: 15px;
+
+        /* Espacio entre los campos del formulario */
+    }
+
+    input {
+        &[type="text"] {
+            padding: 10px;
+
+            /* Espaciado interno para los inputs */
+            border: 1px solid #ccc;
+
+            /* Borde sutil */
+            border-radius: 50px;
+
+            /* Bordes redondeados */
+        }
+
+        &[type="submit"] {
+            background-color: #084BB9;
+
+            /* Fondo azul */
+            color: white;
+
+            /* Texto blanco */
+            padding: 10px;
+
+            /* Espaciado interno */
+            border: none;
+
+            /* Sin borde */
+            border-radius: 50px;
+
+            /* Bordes redondeados */
+            cursor: pointer;
+
+            /* Cursor de mano para indicar acción */
+            transition: background-color 0.3s;
+
+            /* Transición suave al cambiar el color de fondo */
+
+            &:hover {
+                background-color: #EF2D2D;
+
+                /* Color más oscuro al pasar el mouse */
+                font-weight: bold;
+
+                /*Se pone bold al pasarel mouse por encima*/
+            }
+        }
+    }
+}
+
+/* ESTILOS PARA LA SECCIÓN "HABLEMOS-2" */
+
+#hablemos-2 {
+    background-color: white;
+
+    /* Fondo blanco */
+    padding: 40px 20px;
+
+    /* Espaciado interno */
+    display: flex;
+    flex-direction: column;
+
+    /* Organiza los elementos en una columna */
+    align-items: center;
+
+    /* Centra los elementos horizontalmente */
+    gap: 20px;
+
+    /* Espacio entre elementos */
+
+    h2 {
+        color: #084BB9;
+
+        /* Color del texto */
+        margin-bottom: 20px;
+
+        /* Espacio debajo del título */
+    }
+
+    p {
+        text-align: center;
+
+        /* Centra el texto */
+        max-width: 600px;
+
+        /* Máximo ancho del párrafo */
+        margin-bottom: 30px;
+
+        /* Espacio debajo del párrafo */
+        color: black;
+    }
+
+    form {
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+
+        /* Centra los elementos */
+        display: flex;
+        flex-direction: column;
+
+        /* Organiza los elementos del formulario en una columna */
+        gap: 15px;
+
+        /* Espacio entre los campos del formulario */
+    }
+
+    input {
+        &[type="text"] {
+            padding: 10px;
+
+            /* Espaciado interno para los inputs */
+            border: 1px solid #ccc;
+
+            /* Borde sutil */
+            border-radius: 50px;
+
+            /* Bordes redondeados */
+        }
+
+        &[type="submit"] {
+            background-color: #084BB9;
+
+            /* Fondo azul */
+            color: white;
+
+            /* Texto blanco */
+            padding: 10px;
+
+            /* Espaciado interno */
+            border: none;
+
+            /* Sin borde */
+            border-radius: 50px;
+
+            /* Bordes redondeados */
+            cursor: pointer;
+
+            /* Cursor de mano para indicar acción */
+            transition: background-color 0.3s;
+
+            /* Transición suave al cambiar el color de fondo */
+
+            &:hover {
+                background-color: #EF2D2D;
+
+                /* Color más oscuro al pasar el mouse */
+                font-weight: bold;
+
+                /* Se pone bold al pasar el mouse por encima */
+            }
+        }
+    }
+}
+
+/* ESTILOS PARA LA SECCIÓN "ÚLTIMOS ARTÍCULOS" */
+
+#ultimos-articulos {
+    background-color: #fff;
+
+    /* Fondo blanco para la sección */
+    padding: 40px;
+
+    /* Espaciado interno */
+    display: grid;
+
+    /* Utiliza CSS Grid para la disposición */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    /* Crea columnas que se ajusten automáticamente */
+    justify-content: center;
+
+    /* Centra los elementos en la cuadrícula */
+    gap: 30px;
+
+    /* Espacio entre las tarjetas */
+
+    h2 {
+        grid-column: 1 / -1;
+
+        /* Asegura que el título se extienda a través de todas las columnas */
+        text-align: center;
+
+        /* Asegura que el título esté centrado */
+        margin-bottom: 30px;
+
+        /* Espacio debajo del título */
+    }
+
+    p {
+        color: black;
+    }
+
+    .article {
+        border: 1px solid #e1e1e1;
+
+        /* Borde sutil para cada artículo */
+        border-radius: 50px;
+
+        /* Bordes redondeados para los artículos */
+        overflow: hidden;
+
+        /* Asegura que el contenido no desborde */
+        display: grid;
+
+        /* Utiliza CSS Grid para la disposición interna */
+        grid-template-rows: auto 1fr auto;
+
+        /* Organiza el espacio para la imagen, contenido y botones */
+        align-items: center;
+
+        /* Centra el contenido verticalmente */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+        /* Sombra suave */
+        transition: transform 0.3s ease-in-out;
+
+        /* Transición suave para el efecto de hover */
+
+        img {
+            width: 100%;
+
+            /* Asegura que la imagen cubra el ancho del artículo */
+            height: auto;
+
+            /* Mantiene la proporción de la imagen */
+            border-bottom: 1px solid #e1e1e1;
+
+            /* Borde entre la imagen y el texto */
+        }
+
+        h3 {
+            padding: 20px;
+
+            /* Espaciado interno para el título */
+        }
+
+        p {
+            padding: 0 20px 20px;
+
+            /* Espaciado interno para el párrafo */
+            text-align: justify;
+
+            /* Justifica el texto del párrafo */
+        }
+
+        &:hover {
+            transform: scale(1.05);
+
+            /*Aumenta ligeramente el tamaño al pasar el mouse  pero me ocurre que pasa por arriba del nav bar*/
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+            /* Sombra más pronunciada al pasar el mouse */
+        }
+
+        h3:hover {
+            color: #084BB9;
+        }
+    }
+}
+
+/*CARROUSELES*/
+
+#bloque-4 .carousel-item {
+    p {
+        margin-bottom: 0;
+
+        /* Elimina el margen inferior para un espaciado más controlado */
+    }
+
+    .fw-bold {
+        color: white;
+
+        /* Personaliza el color del nombre del cliente */
+        margin-top: 1rem;
+
+        /* Espacio entre el testimonio y el nombre del cliente */
+    }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0px;
+    color: #EF2D2D;
+    text-align: center;
+    border: 0;
+    opacity: 0.5;
+    transition: opacity .15s ease;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+
+    /* Color blanco con 50% de transparencia */
+}

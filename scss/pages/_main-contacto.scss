@@ -1,0 +1,28 @@
+/*ESTILO INFO CONTACTO*/
+
+#info-contacto {
+    color: black;
+}
+
+.btn.btn-primary {
+    border-radius: 50px;
+    background-color: #084BB9;
+    color: white;
+
+    /* Cambia el color del texto si es necesario para que sea legible */
+    /* Otros estilos de texto, tamaño, margen, etc., según tus necesidades */
+    padding: 10px 20px;
+
+    /* Ajusta el relleno según el tamaño deseado del botón */
+}
+
+/*MAPA (IFRAME)*/
+
+.iframe {
+    margin-top: 50px;
+
+    /* Añade un margen superior */
+    margin-bottom: 20px;
+
+    /* Añade un margen inferior */
+}

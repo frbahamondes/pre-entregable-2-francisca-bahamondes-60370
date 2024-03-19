@@ -1,0 +1,119 @@
+/*ESTILOS METODOLOGIA*/
+/* Estilo común para todas las secciones */
+
+.seccion-metodologia {
+    padding: 40px 20px;
+    margin: 0;
+
+    /* Elimina el margen superior de la primera sección */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    .contenido-seccion {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .texto-izquierda,
+    .imagen-derecha {
+        flex: 1;
+        min-width: 300px;
+
+        /* Asegura un mínimo de ancho para contenido y imagen */
+    }
+
+    .texto-izquierda {
+        padding: 20px;
+        text-align: left;
+
+        /* Asegura que el texto esté alineado a la izquierda */
+    }
+
+    .imagen-derecha img {
+        width: 100%;
+        max-width: 400px;
+
+        /* Limita el tamaño máximo de las imágenes */
+        height: auto;
+        border-radius: 20px;
+
+        /* Bordes redondeados para las imágenes */
+        display: block;
+        margin: 0 auto;
+
+        /* Centra la imagen si está en una columna propia */
+    }
+
+    h2 {
+        color: #084BB9;
+
+        /* Azul para títulos */
+        margin-bottom: 15px;
+
+        /* Espacio debajo del título */
+    }
+
+    p {
+        color: black;
+
+        /* Texto principal en color negro */
+        line-height: 1.6;
+
+        /* Mejora la legibilidad del texto */
+    }
+}
+
+@media (max-width: 768px) {
+    .seccion-metodologia {
+        .contenido-seccion {
+            flex-direction: column;
+        }
+
+        .imagen-derecha img {
+            margin-bottom: 20px;
+
+            /* Espacio debajo de la imagen en dispositivos móviles */
+        }
+    }
+}
+
+/* Colores de fondo específicos para cada sección */
+
+#busqueda-constante {
+    background-color: #7A82D1;
+
+    /* Color de fondo claro para "Búsqueda Constante" */
+}
+
+#tecnologia-avanzada {
+    background-color: #9DA0DD;
+
+    /* Color de fondo claro para "Tecnología Avanzada" */
+}
+
+#orientacion-estrategica {
+    background-color: #BFBEE9;
+
+    /* Color de fondo claro para "Orientación Estratégica" */
+}
+
+#beneficio-sostenible {
+    background-color: #DFDEF4;
+
+    /* Color de fondo claro para "Beneficio Sostenible" */
+}
+
+.seccion-metodologia .imagen-derecha img:hover {
+    transform: scale(1.05);
+
+    /* Aumenta el tamaño de la imagen al 105% */
+    transition: transform 0.3s ease-in-out;
+
+    /* Efecto suave de transición */
+}

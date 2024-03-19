@@ -1,0 +1,64 @@
+/*ESTILOS DE LA BARRA DE NAVEGACIÓN*/
+
+.menu-container {
+    background-color: #EF2D2D;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    li {
+    list-style: none;
+}
+}
+
+.menu {
+    border: 0px solid black;
+    background-color: #EF2D2D;
+    width: 100%;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+
+    /* Cambiado a space-between para separar el logo y los enlaces */
+    align-items: center;
+    padding: 10px 10%;
+
+    /* Añadido padding a los lados para asegurar que el contenido no toque los bordes */
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        li {
+            margin: 0 10px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+
+                //hover es una pseudoclase por eso se pone el "&" estoy llamando al mismo elemento en donde estoy anidando.
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.logo-image {
+    margin-right: auto;
+
+    /* Añadido para empujar todo lo demás hacia la derecha */
+}
+
+.menu {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

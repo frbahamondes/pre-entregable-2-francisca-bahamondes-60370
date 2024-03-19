@@ -1,0 +1,57 @@
+/*MEDIDAS 100% Q RESPONSIVE*/
+/*Ajustes para tablets*/
+
+@media (max-width: 1024px) {
+
+    .texto-izquierda,
+    .imagen-derecha {
+        padding: 15px;
+
+        /* Ajusta el padding para más espacio */
+    }
+
+    .menu ul {
+        flex-direction: column;
+
+        /* Opcional: Cambia la navegación a vertical */
+
+        li a {
+            font-size: 0.9rem;
+
+            /* Ajusta el tamaño de la fuente */
+        }
+    }
+
+    /* Ajustes para móviles*/
+}
+
+@media (max-width: 768px) {
+
+    .texto-izquierda,
+    .imagen-derecha {
+        padding: 10px;
+
+        /* Reduce aún más el padding */
+        text-align: center;
+
+        /* Centra el texto para mejorar la legibilidad */
+    }
+
+    .menu {
+        flex-direction: column;
+
+        /* Ajusta la navegación para dispositivos móviles */
+
+        ul li {
+            margin: 5px 0;
+
+            /* Ajusta los márgenes para los enlaces */
+
+            a {
+                font-size: 0.8rem;
+
+                /* Reduce el tamaño de la fuente para ahorrar espacio */
+            }
+        }
+    }
+}
