@@ -1,0 +1,20 @@
+//Aquí se ponen las propiedades o bloques de código que reptimos muchas veces.
+//EJEMPLO (QUE NO USARÉ EN MI MAIN.SCSS)
+@mixin ejemplo ($flex-direction, $justify-content, $align-items){
+    display:flex;
+    flex-direction:$flex-direction;
+    justify-content:$justify-content;
+    align-items:$align-items;
+}
+
+//En el ejemplo, al display flex no se le pone una variable porque siempre va a tener el mismo valor.
+//Lo llamamos arriba abajo de variannles en el main.scss.
+
+//---- MIXIN DE MI PROYECTO-----
+@mixin look-botones ($bg-color,$text-color){
+    border-radius: 50px;
+    background-color: $bg-color;
+    color: $text-color; /* Cambia el color del texto si es necesario para que sea legible */
+    padding: 10px 20px;
+    border:none;
+}

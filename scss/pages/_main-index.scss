@@ -63,22 +63,7 @@ button {
 
     /* Añade un poco de espacio entre los botones y el párrafo */
     margin-right: 20px;
-    padding: 10px 20px;
-
-    /* Añade padding para hacer los botones más grandes y fáciles de clickear */
-    border: none;
-
-    /* Elimina el borde por defecto de los botones */
-    background-color: $rojo-primario;
-
-    /* Color de fondo para los botones */
-    color: white;
-
-    /* Color de texto para los botones */
-    cursor: pointer;
-
-    /* Cambia el cursor a un puntero para indicar que es clickeable */
-    border-radius: 50px;
+@include look-botones ($rojo-primario,$blanco-secundario);
 
     &:hover {
         background-color: white;
@@ -96,21 +81,9 @@ button {
 
     /* Añade un poco de espacio entre los botones y el párrafo */
     margin-right: 20px;
-    padding: 10px 20px;
-
-    /* Añade padding para hacer los botones más grandes y fáciles de clickear */
-    border: none;
-
-    /* Elimina el borde por defecto de los botones */
-    background-color: $rojo-primario;
-
-    /* Color de fondo para los botones */
-    color: white;
+    @include look-botones ($rojo-primario,$blanco-secundario);
 
     /* Color de texto para los botones */
-    cursor: pointer;
-
-    /* Cambia el cursor a un puntero para indicar que es clickeable */
     border-radius: 50px;
     text-decoration: none;
 
@@ -427,22 +400,7 @@ h2 {
         }
 
         &[type="submit"] {
-            background-color: $azul-primario;
-
-            /* Fondo azul */
-            color: white;
-
-            /* Texto blanco */
-            padding: 10px;
-
-            /* Espaciado interno */
-            border: none;
-
-            /* Sin borde */
-            border-radius: 50px;
-
-            /* Bordes redondeados */
-            cursor: pointer;
+            @include look-botones ($azul-primario,$blanco-secundario);
 
             /* Cursor de mano para indicar acción */
             transition: background-color 0.3s;
@@ -532,19 +490,7 @@ h2 {
         }
 
         &[type="submit"] {
-            background-color: $azul-primario;
-
-            /* Fondo azul */
-            color: white;
-
-            /* Texto blanco */
-            padding: 10px;
-
-            /* Espaciado interno */
-            border: none;
-
-            /* Sin borde */
-            border-radius: 50px;
+            @include look-botones ($azul-primario,$blanco-secundario);
 
             /* Bordes redondeados */
             cursor: pointer;

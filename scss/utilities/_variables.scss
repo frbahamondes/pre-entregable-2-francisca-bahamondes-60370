@@ -45,3 +45,7 @@ $rojos-oscuros:
 #73211b,
 #4d1a15,
 #2a120c;
+
+//---- MAPAS ----
+//No voy a hacer porque lo encuento medio ineficiente pero la sintaxis es $nombre-del-mapa { propiedad:valor, propiedad 2:valor2, propiedad 3:valor3); y luego para llamarlo en el scss se hace con map-get($map: $nombre-del-mapa, $key: propiedad2);
+

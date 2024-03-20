@@ -5,15 +5,7 @@
 }
 
 .btn.btn-primary {
-    border-radius: 50px;
-    background-color: $azul-primario;
-    color: white;
-
-    /* Cambia el color del texto si es necesario para que sea legible */
-    /* Otros estilos de texto, tamaño, margen, etc., según tus necesidades */
-    padding: 10px 20px;
-
-    /* Ajusta el relleno según el tamaño deseado del botón */
+@include look-botones ($azul-primario, $blanco-secundario)
 }
 
 /*MAPA (IFRAME)*/

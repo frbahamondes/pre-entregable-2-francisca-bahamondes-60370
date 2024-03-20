@@ -12,7 +12,6 @@ body,
 p {
   font-family: "Poppins", sans-serif;
   color: #121121;
-  width: 100%;
 }
 
 /*ESTILOS PARA EL MAIN*/
@@ -124,17 +123,11 @@ button {
   margin-top: 10px;
   /* Añade un poco de espacio entre los botones y el párrafo */
   margin-right: 20px;
-  padding: 10px 20px;
-  /* Añade padding para hacer los botones más grandes y fáciles de clickear */
-  border: none;
-  /* Elimina el borde por defecto de los botones */
-  background-color: #EF2D2D;
-  /* Color de fondo para los botones */
-  color: white;
-  /* Color de texto para los botones */
-  cursor: pointer;
-  /* Cambia el cursor a un puntero para indicar que es clickeable */
   border-radius: 50px;
+  background-color: #EF2D2D;
+  color: #FFFFFF; /* Cambia el color del texto si es necesario para que sea legible */
+  padding: 10px 20px;
+  border: none;
 }
 button:hover {
   background-color: white;
@@ -148,16 +141,12 @@ button:hover {
   margin-top: 10px;
   /* Añade un poco de espacio entre los botones y el párrafo */
   margin-right: 20px;
-  padding: 10px 20px;
-  /* Añade padding para hacer los botones más grandes y fáciles de clickear */
-  border: none;
-  /* Elimina el borde por defecto de los botones */
+  border-radius: 50px;
   background-color: #EF2D2D;
-  /* Color de fondo para los botones */
-  color: white;
+  color: #FFFFFF; /* Cambia el color del texto si es necesario para que sea legible */
+  padding: 10px 20px;
+  border: none;
   /* Color de texto para los botones */
-  cursor: pointer;
-  /* Cambia el cursor a un puntero para indicar que es clickeable */
   border-radius: 50px;
   text-decoration: none;
 }
@@ -401,17 +390,11 @@ h2 {
   /* Bordes redondeados */
 }
 #hablemos input[type=submit] {
-  background-color: #084BB9;
-  /* Fondo azul */
-  color: white;
-  /* Texto blanco */
-  padding: 10px;
-  /* Espaciado interno */
-  border: none;
-  /* Sin borde */
   border-radius: 50px;
-  /* Bordes redondeados */
-  cursor: pointer;
+  background-color: #084BB9;
+  color: #FFFFFF; /* Cambia el color del texto si es necesario para que sea legible */
+  padding: 10px 20px;
+  border: none;
   /* Cursor de mano para indicar acción */
   transition: background-color 0.3s;
   /* Transición suave al cambiar el color de fondo */
@@ -472,15 +455,11 @@ h2 {
   /* Bordes redondeados */
 }
 #hablemos-2 input[type=submit] {
-  background-color: #084BB9;
-  /* Fondo azul */
-  color: white;
-  /* Texto blanco */
-  padding: 10px;
-  /* Espaciado interno */
-  border: none;
-  /* Sin borde */
   border-radius: 50px;
+  background-color: #084BB9;
+  color: #FFFFFF; /* Cambia el color del texto si es necesario para que sea legible */
+  padding: 10px 20px;
+  border: none;
   /* Bordes redondeados */
   cursor: pointer;
   /* Cursor de mano para indicar acción */
@@ -905,11 +884,9 @@ p {
 .btn.btn-primary {
   border-radius: 50px;
   background-color: #084BB9;
-  color: white;
-  /* Cambia el color del texto si es necesario para que sea legible */
-  /* Otros estilos de texto, tamaño, margen, etc., según tus necesidades */
+  color: #FFFFFF; /* Cambia el color del texto si es necesario para que sea legible */
   padding: 10px 20px;
-  /* Ajusta el relleno según el tamaño deseado del botón */
+  border: none;
 }
 
 /*MAPA (IFRAME)*/
