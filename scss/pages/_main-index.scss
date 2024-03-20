@@ -15,7 +15,7 @@ main {
     padding: 10%;
 
     /* Añade un poco de espacio alrededor para evitar que el contenido toque los bordes */
-    background-color: #084BB9;
+    background-color: $azul-primario;
 
     /* Color de fondo azul */
     color: white;
@@ -69,7 +69,7 @@ button {
     border: none;
 
     /* Elimina el borde por defecto de los botones */
-    background-color: #EF2D2D;
+    background-color: $rojo-primario;
 
     /* Color de fondo para los botones */
     color: white;
@@ -84,7 +84,7 @@ button {
         background-color: white;
 
         /* Oscurece el botón al pasar el mouse para indicar interactividad */
-        color: #084BB9;
+        color: $azul-primario;
         font-weight: bold;
     }
 }
@@ -102,7 +102,7 @@ button {
     border: none;
 
     /* Elimina el borde por defecto de los botones */
-    background-color: #EF2D2D;
+    background-color: $rojo-primario;
 
     /* Color de fondo para los botones */
     color: white;
@@ -118,7 +118,7 @@ button {
         background-color: white;
 
         /* Oscurece el botón al pasar el mouse para indicar interactividad */
-        color: #084BB9;
+        color: $azul-primario;
         font-weight: bold;
     }
 }
@@ -150,11 +150,11 @@ h2 {
 
 #bloque-2 {
     #h2-centrado {
-        color: #084BB9;
+        color: $azul-primario;
     }
 
     p {
-        color: black;
+        color: $azul-oscuro-5;
     }
 }
 
@@ -207,7 +207,7 @@ h2 {
 .column-2 h3:hover,
 .column-3 h3:hover,
 .column-4 h3:hover {
-    color: #084BB9;
+    color: $azul-primario;
 }
 
 .column-1 h3,
@@ -228,7 +228,7 @@ h2 {
 }
 
 .boton-saber-mas:hover {
-    background-color: #0056b3;
+    background-color: $azul-primario;
 
     /* Color al pasar el ratón por encima */
     color: white;
@@ -240,10 +240,10 @@ h2 {
 #bloque-3 {
     background-color: rgba(8, 75, 185, 0.1);
 
-    /* Color #EF2D2D con 50% de transparencia */
+    /* Color $rojo-primario con 50% de transparencia */
 
     p {
-        color: black;
+        color: $azul-oscuro-5;
     }
 
     .container {
@@ -289,7 +289,7 @@ h2 {
 
 #bloque-3 {
     h2 {
-        color: #084BB9;
+        color: $azul-primario;
 
         /* Establece el color del texto a un azul específico */
     }
@@ -342,7 +342,7 @@ h2 {
     justify-content: center;
     align-items: center;
     padding: 10%;
-    background-color: #084BB9;
+    background-color: $azul-primario;
     color: white;
 }
 
@@ -362,8 +362,6 @@ h2 {
 
 #hablemos {
     background-color: none;
-
-    /* Color #EF2D2D con 50% de transparencia */
     padding: 40px 20px;
 
     /* Espaciado interno */
@@ -379,7 +377,7 @@ h2 {
     /* Espacio entre elementos */
 
     h2 {
-        color: #084BB9;
+        color: $azul-primario;
 
         /* Color del texto */
         margin-bottom: 20px;
@@ -397,7 +395,7 @@ h2 {
         margin-bottom: 30px;
 
         /* Espacio debajo del párrafo */
-        color: black;
+        color: $azul-oscuro-5;
     }
 
     form {
@@ -429,7 +427,7 @@ h2 {
         }
 
         &[type="submit"] {
-            background-color: #084BB9;
+            background-color: $azul-primario;
 
             /* Fondo azul */
             color: white;
@@ -452,7 +450,7 @@ h2 {
             /* Transición suave al cambiar el color de fondo */
 
             &:hover {
-                background-color: #EF2D2D;
+                background-color: $rojo-primario;
 
                 /* Color más oscuro al pasar el mouse */
                 font-weight: bold;
@@ -484,7 +482,7 @@ h2 {
     /* Espacio entre elementos */
 
     h2 {
-        color: #084BB9;
+        color: $azul-primario;
 
         /* Color del texto */
         margin-bottom: 20px;
@@ -502,7 +500,7 @@ h2 {
         margin-bottom: 30px;
 
         /* Espacio debajo del párrafo */
-        color: black;
+        color: $azul-oscuro-5;
     }
 
     form {
@@ -534,7 +532,7 @@ h2 {
         }
 
         &[type="submit"] {
-            background-color: #084BB9;
+            background-color: $azul-primario;
 
             /* Fondo azul */
             color: white;
@@ -557,7 +555,7 @@ h2 {
             /* Transición suave al cambiar el color de fondo */
 
             &:hover {
-                background-color: #EF2D2D;
+                background-color: $rojo-primario;
 
                 /* Color más oscuro al pasar el mouse */
                 font-weight: bold;
@@ -603,7 +601,7 @@ h2 {
     }
 
     p {
-        color: black;
+        color: $azul-oscuro-5;
     }
 
     .article {
@@ -669,7 +667,7 @@ h2 {
         }
 
         h3:hover {
-            color: #084BB9;
+            color: $azul-primario;
         }
     }
 }
@@ -704,7 +702,7 @@ h2 {
     justify-content: center;
     width: 15%;
     padding: 0px;
-    color: #EF2D2D;
+    color: $rojo-primario;
     text-align: center;
     border: 0;
     opacity: 0.5;

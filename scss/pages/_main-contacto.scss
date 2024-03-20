@@ -1,12 +1,12 @@
 /*ESTILO INFO CONTACTO*/
 
 #info-contacto {
-    color: black;
+    color: $azul-oscuro-5;
 }
 
 .btn.btn-primary {
     border-radius: 50px;
-    background-color: #084BB9;
+    background-color: $azul-primario;
     color: white;
 
     /* Cambia el color del texto si es necesario para que sea legible */

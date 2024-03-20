@@ -11,7 +11,7 @@ html,
 body,
 p {
   font-family: "Poppins", sans-serif;
-  color: black;
+  color: #121121;
   width: 100%;
 }
 
@@ -37,7 +37,7 @@ nav li {
 }
 
 .menu {
-  border: 0px solid black;
+  border: 0px solid #121121;
   background-color: #EF2D2D;
   width: 100%;
   display: flex;
@@ -193,7 +193,7 @@ h2 {
   color: #084BB9;
 }
 #bloque-2 p {
-  color: black;
+  color: #121121;
 }
 
 /* Estilos para el contenedor y las columnas */
@@ -255,7 +255,7 @@ h2 {
 }
 
 .boton-saber-mas:hover {
-  background-color: #0056b3;
+  background-color: #084BB9;
   /* Color al pasar el ratón por encima */
   color: white;
   font-weight: bold;
@@ -264,10 +264,10 @@ h2 {
 /*ESTILOS PARA LA TERCERA SECCIÓN DEL HOME*/
 #bloque-3 {
   background-color: rgba(8, 75, 185, 0.1);
-  /* Color #EF2D2D con 50% de transparencia */
+  /* Color $rojo-primario con 50% de transparencia */
 }
 #bloque-3 p {
-  color: black;
+  color: #121121;
 }
 #bloque-3 .container {
   display: flex;
@@ -356,7 +356,6 @@ h2 {
 /* ESTILOS PARA LA SECCIÓN "HABLEMOS" */
 #hablemos {
   background-color: none;
-  /* Color #EF2D2D con 50% de transparencia */
   padding: 40px 20px;
   /* Espaciado interno */
   display: flex;
@@ -380,7 +379,7 @@ h2 {
   /* Máximo ancho del párrafo */
   margin-bottom: 30px;
   /* Espacio debajo del párrafo */
-  color: black;
+  color: #121121;
 }
 #hablemos form {
   width: 100%;
@@ -451,7 +450,7 @@ h2 {
   /* Máximo ancho del párrafo */
   margin-bottom: 30px;
   /* Espacio debajo del párrafo */
-  color: black;
+  color: #121121;
 }
 #hablemos-2 form {
   width: 100%;
@@ -519,7 +518,7 @@ h2 {
   /* Espacio debajo del título */
 }
 #ultimos-articulos p {
-  color: black;
+  color: #121121;
 }
 #ultimos-articulos .article {
   border: 1px solid #e1e1e1;
@@ -720,7 +719,7 @@ h2 {
   color: #084BB9;
 }
 #bloque-2-pagina p {
-  color: black;
+  color: #121121;
 }
 
 /*Bloque 3 de pagina*/
@@ -785,7 +784,7 @@ h2 {
   /* Asegura que el texto esté centrado */
   margin-bottom: 20px;
   /* Espacio debajo del párrafo */
-  color: black;
+  color: #121121;
 }
 
 @media (max-width: 768px) {
@@ -796,7 +795,7 @@ h2 {
 }
 /*Bloque 4 pagina*/
 #bloque-4-pagina {
-  background-color: #EF2D2D;
+  background-color: #ff6f00;
   padding: 50px 10%;
 }
 #bloque-4-pagina h2,
@@ -857,7 +856,7 @@ p {
   /* Espacio debajo del título */
 }
 .seccion-metodologia p {
-  color: black;
+  color: #121121;
   /* Texto principal en color negro */
   line-height: 1.6;
   /* Mejora la legibilidad del texto */
@@ -874,22 +873,20 @@ p {
 }
 /* Colores de fondo específicos para cada sección */
 #busqueda-constante {
-  background-color: #7A82D1;
-  /* Color de fondo claro para "Búsqueda Constante" */
+  background-color: #DFDEF4;
 }
 
 #tecnologia-avanzada {
-  background-color: #9DA0DD;
-  /* Color de fondo claro para "Tecnología Avanzada" */
+  background-color: #BFBEE9;
 }
 
 #orientacion-estrategica {
-  background-color: #BFBEE9;
+  background-color: #DFDEF4;
   /* Color de fondo claro para "Orientación Estratégica" */
 }
 
 #beneficio-sostenible {
-  background-color: #DFDEF4;
+  background-color: #BFBEE9;
   /* Color de fondo claro para "Beneficio Sostenible" */
 }
 
@@ -902,7 +899,7 @@ p {
 
 /*ESTILO INFO CONTACTO*/
 #info-contacto {
-  color: black;
+  color: #121121;
 }
 
 .btn.btn-primary {

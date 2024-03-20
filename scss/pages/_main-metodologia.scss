@@ -51,7 +51,7 @@
     }
 
     h2 {
-        color: #084BB9;
+        color: $azul-primario;
 
         /* Azul para títulos */
         margin-bottom: 15px;
@@ -60,7 +60,7 @@
     }
 
     p {
-        color: black;
+        color: $azul-oscuro-5;
 
         /* Texto principal en color negro */
         line-height: 1.6;
@@ -86,25 +86,25 @@
 /* Colores de fondo específicos para cada sección */
 
 #busqueda-constante {
-    background-color: #7A82D1;
+    background-color: nth($list: $azules-claros, $n: 1)
 
     /* Color de fondo claro para "Búsqueda Constante" */
 }
 
 #tecnologia-avanzada {
-    background-color: #9DA0DD;
+    background-color: nth($list: $azules-claros, $n: 2)
 
     /* Color de fondo claro para "Tecnología Avanzada" */
 }
 
 #orientacion-estrategica {
-    background-color: #BFBEE9;
+    background-color: nth($list: $azules-claros, $n: 1);
 
     /* Color de fondo claro para "Orientación Estratégica" */
 }
 
 #beneficio-sostenible {
-    background-color: #DFDEF4;
+    background-color: nth($list: $azules-claros, $n: 2);
 
     /* Color de fondo claro para "Beneficio Sostenible" */
 }

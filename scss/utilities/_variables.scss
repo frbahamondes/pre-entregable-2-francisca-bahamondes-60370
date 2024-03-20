@@ -1,0 +1,45 @@
+//LAS VARIABLES SE APLICAN EN LOS ARCHIVOS SCSS Y NO EL CSS
+//Paleta principal de colores primarios y secundarios
+$azul-primario: #084BB9; // Azul principal
+$rojo-primario: #EF2D2D; // Rojo principal
+$naranja-secundario: #ff6f00; // Naranja secundario
+$verde-secundario: #9CF95B; // Verde Secundario
+$cyan-secundario: #00FFD4; // Cyan secundario
+$blanco-secundario: #FFFFFF; //Blanco secundario, lo dejé así por si en algún momento quisiera variar todos los blancos de forma más sencilla.
+
+
+//Matices OSCUROS de los colores principales
+//AZULES
+$azul-oscuro-1: #173F98;
+$azul-oscuro-2: #1B3377;
+$azul-oscuro-3: #1b2759;
+$azul-oscuro-4: #171d3c;
+$azul-oscuro-5: #121121;
+//ROJOS
+$rojo-oscuro-1: #c42b27;
+$rojo-oscuro-2: #9a2721;
+$rojo-oscuro-3: #73211b;
+$rojo-oscuro-4: #4d1a15;
+$rojo-oscuro-5: #2a120c;
+
+//Color de sombra
+$color-sombra: rgba(0, 0, 0, 0.1);
+
+//----------------------------------------------------------
+//LISTAS Y MAPAS, DONDE PUEDO GUARDAR MÁS DE UN SÓLO VALOR
+
+//Lista MATICES CLAROS
+//AZULES
+$azules-claros:
+#DFDEF4,
+#BFBEE9,
+#9DA0DD,
+#7A82D1,
+#5266C5;
+//ROJOS
+$rojos-claros:
+#ffe0d9,
+#ffc1b4,
+#ffa191,
+#ff806e,
+#f95c4d;
