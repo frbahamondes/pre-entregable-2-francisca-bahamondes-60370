@@ -1,7 +1,7 @@
 /* ESTILOS PARA EL FOOTER */
 
 .site-footer {
-    background-color: $blanco-secundario;
+    background-color: nth($list: $azules-claros, $n: 1);
 
     /* fondo blanco del footer */
     color: $azul-primario;
