@@ -5,7 +5,7 @@
     background-color: $azul-primario;
 
     /* Establece el color de fondo a blanco */
-    color: white;
+    color: $blanco-secundario;
     text-align: center;
 
     /* Centra el texto dentro de la sección */
@@ -59,7 +59,7 @@
         flex: 0 1 calc(50% - 20px);
 
         /* Calcula el ancho para 2 columnas, restando el gap */
-        background-color: white;
+        background-color: $blanco-secundario;
 
         /* Fondo blanco para las tarjetas */
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -142,12 +142,12 @@
 
     h2,
     ol {
-        color: white;
+        color: $blanco-secundario;
     }
 }
 
 ul,
 p {
-    color: white;
+    color: $blanco-secundario;
 }
 

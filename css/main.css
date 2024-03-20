@@ -61,7 +61,7 @@ nav li {
 }
 .menu ul li a {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
   font-weight: bold;
 }
 .menu ul li a:hover {
@@ -92,7 +92,7 @@ main {
   /* Añade un poco de espacio alrededor para evitar que el contenido toque los bordes */
   background-color: #084BB9;
   /* Color de fondo azul */
-  color: white;
+  color: #FFFFFF;
   /* Cambia el color del texto a blanco */
 }
 
@@ -133,7 +133,7 @@ button {
   border: none;
 }
 button:hover {
-  background-color: white;
+  background-color: #FFFFFF;
   /* Oscurece el botón al pasar el mouse para indicar interactividad */
   color: #084BB9;
   font-weight: bold;
@@ -154,7 +154,7 @@ button:hover {
   text-decoration: none;
 }
 .button:hover {
-  background-color: white;
+  background-color: #FFFFFF;
   /* Oscurece el botón al pasar el mouse para indicar interactividad */
   color: #084BB9;
   font-weight: bold;
@@ -169,7 +169,7 @@ h2 {
 /* Estilos para la sección general y el título */
 #bloque-2 {
   padding: 20px;
-  background-color: white;
+  background-color: #FFFFFF;
   /* Puedes cambiar el color de fondo según tu diseño */
   padding-top: 50px;
   padding-bottom: 25px;
@@ -207,7 +207,7 @@ h2 {
   /* Las columnas crecen para llenar el espacio disponible */
   min-width: 250px;
   /* Mínimo ancho para las columnas, evita que sean demasiado estrechas */
-  background-color: white;
+  background-color: #FFFFFF;
   /* Fondo blanco para las columnas */
   padding: 20px;
   /* Espaciado interno */
@@ -249,7 +249,7 @@ h2 {
 .boton-saber-mas:hover {
   background-color: #084BB9;
   /* Color al pasar el ratón por encima */
-  color: white;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
@@ -331,7 +331,7 @@ h2 {
   align-items: center;
   padding: 10%;
   background-color: #084BB9;
-  color: white;
+  color: #FFFFFF;
 }
 
 #carouselTestimonials .carousel-item .fw-bold {
@@ -411,7 +411,7 @@ h2 {
 
 /* ESTILOS PARA LA SECCIÓN "HABLEMOS-2" */
 #hablemos-2 {
-  background-color: white;
+  background-color: #FFFFFF;
   /* Fondo blanco */
   padding: 40px 20px;
   /* Espaciado interno */
@@ -554,7 +554,7 @@ h2 {
   /* Elimina el margen inferior para un espaciado más controlado */
 }
 #bloque-4 .carousel-item .fw-bold {
-  color: white;
+  color: #FFFFFF;
   /* Personaliza el color del nombre del cliente */
   margin-top: 1rem;
   /* Espacio entre el testimonio y el nombre del cliente */
@@ -587,7 +587,7 @@ h2 {
 
 /* ESTILOS PARA EL FOOTER */
 .site-footer {
-  background-color: white;
+  background-color: #FFFFFF;
   /* fondo blanco del footer */
   color: #084BB9;
   /* Color de texto claro para contraste */
@@ -678,7 +678,7 @@ h2 {
 #encabezado-pagina {
   background-color: #084BB9;
   /* Establece el color de fondo a blanco */
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   /* Centra el texto dentro de la sección */
   padding-top: 100px;
@@ -724,7 +724,7 @@ h2 {
 #bloque-3-pagina .column {
   flex: 0 1 calc(50% - 20px);
   /* Calcula el ancho para 2 columnas, restando el gap */
-  background-color: white;
+  background-color: #FFFFFF;
   /* Fondo blanco para las tarjetas */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   /* Sombra suave para profundidad */
@@ -782,12 +782,12 @@ h2 {
 }
 #bloque-4-pagina h2,
 #bloque-4-pagina ol {
-  color: white;
+  color: #FFFFFF;
 }
 
 ul,
 p {
-  color: white;
+  color: #FFFFFF;
 }
 
 /*ESTILOS METODOLOGIA*/
