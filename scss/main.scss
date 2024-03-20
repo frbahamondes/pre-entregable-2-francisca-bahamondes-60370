@@ -1,6 +1,7 @@
 //Reset (comentario sass)
 // Recordar que este documento se lee en cascada por eso es importante poner el archivo resent y variables antes que todo.
 @import "utilities/variables";
+@import "utilities/extend";
 @import "utilities/mixin";
 @import "utilities/reset";
 @import "utilities/globales";

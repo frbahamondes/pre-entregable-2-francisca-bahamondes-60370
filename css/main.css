@@ -1,4 +1,13 @@
 @charset "UTF-8";
+.menu-container {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
 /* RESET */
 * {
   margin: 0;
@@ -23,12 +32,6 @@ main {
 /*ESTILOS DE LA BARRA DE NAVEGACIÓN*/
 .menu-container {
   background-color: #EF2D2D;
-  padding: 0px;
-  display: flex;
-  justify-content: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
 }
 
 nav li {
@@ -500,7 +503,7 @@ h2 {
   color: #121121;
 }
 #ultimos-articulos .article {
-  border: 1px solid #e1e1e1;
+  border: 1px solid #FFFFFF;
   /* Borde sutil para cada artículo */
   border-radius: 50px;
   /* Bordes redondeados para los artículos */

@@ -1,0 +1,15 @@
+//Extend es similar a mixin pero yo no le pongo los parámetros. Es siempre lo mismo.
+%estilos-ejemplo {
+    background-color: $azul-primario;
+    color: $blanco-secundario}
+
+//ESTE ES EL EXTEND QUE UTILICÉ EN MI NAV BAR (ESTÁ EN EL HEADER)
+
+%menu-responsive {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
