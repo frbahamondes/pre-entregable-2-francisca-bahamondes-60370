@@ -60,7 +60,7 @@
     }
 
     p {
-        color: $azul-oscuro-5;
+        color: nth($list: $azules-oscuros, $n:5);
 
         /* Texto principal en color negro */
         line-height: 1.6;

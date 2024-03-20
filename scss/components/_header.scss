@@ -17,7 +17,7 @@ nav {
 }
 
 .menu {
-    border: 0px solid $azul-oscuro-5;
+    border: 0px solid nth($list: $azules-oscuros, $n:5);
     background-color: $rojo-primario;
     width: 100%;
     display: flex;

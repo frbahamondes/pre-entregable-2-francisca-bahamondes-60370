@@ -8,20 +8,6 @@ $cyan-secundario: #00FFD4; // Cyan secundario
 $blanco-secundario: #FFFFFF; //Blanco secundario, lo dejé así por si en algún momento quisiera variar todos los blancos de forma más sencilla.
 
 
-//Matices OSCUROS de los colores principales
-//AZULES
-$azul-oscuro-1: #173F98;
-$azul-oscuro-2: #1B3377;
-$azul-oscuro-3: #1b2759;
-$azul-oscuro-4: #171d3c;
-$azul-oscuro-5: #121121;
-//ROJOS
-$rojo-oscuro-1: #c42b27;
-$rojo-oscuro-2: #9a2721;
-$rojo-oscuro-3: #73211b;
-$rojo-oscuro-4: #4d1a15;
-$rojo-oscuro-5: #2a120c;
-
 //Color de sombra
 $color-sombra: rgba(0, 0, 0, 0.1);
 
@@ -43,3 +29,19 @@ $rojos-claros:
 #ffa191,
 #ff806e,
 #f95c4d;
+
+//Lista MATICES OSCUROS
+//AZULES
+$azules-oscuros:
+#173F98,
+#1B3377,
+#1b2759,
+#171d3c,
+#121121;
+//ROJOS
+$rojos-oscuros:
+#c42b27,
+#9a2721,
+#73211b,
+#4d1a15,
+#2a120c;

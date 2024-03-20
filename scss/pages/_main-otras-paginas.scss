@@ -31,7 +31,7 @@
     }
 
     p {
-        color: $azul-oscuro-5;
+        color: nth($list: $azules-oscuros, $n:5);
     }
 }
 
@@ -122,7 +122,7 @@
         margin-bottom: 20px;
 
         /* Espacio debajo del párrafo */
-        color: $azul-oscuro-5;
+        color: nth($list: $azules-oscuros, $n:5);
     }
 }
 

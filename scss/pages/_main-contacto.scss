@@ -1,7 +1,7 @@
 /*ESTILO INFO CONTACTO*/
 
 #info-contacto {
-    color: $azul-oscuro-5;
+    color: nth($list: $azules-oscuros, $n:5);
 }
 
 .btn.btn-primary {
