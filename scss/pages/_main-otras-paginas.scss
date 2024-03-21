@@ -108,29 +108,18 @@
 
     h3 {
         color: $azul-primario;
-
         /* Color azul para los títulos */
         margin: 20px 0;
-
         /* Espacio arriba y abajo del título */
+        text-align: center; // Asegura que el texto del h3 esté centrado
+            // Puedes eliminar los márgenes laterales si es necesario
     }
 
     p {
         text-align: center;
-
-        /* Asegura que el texto esté centrado */
-        margin-bottom: 20px;
-
-        /* Espacio debajo del párrafo */
-        color: nth($list: $azules-oscuros, $n:5);
-    }
-}
-
-@media (max-width: 768px) {
-    #bloque-3-pagina .column {
-        flex: 0 1 100%;
-
-        /* Hace que las tarjetas ocupen todo el ancho en pantallas pequeñas */
+        margin-top: 20px; // Añade un espacio arriba de los párrafos
+        margin-bottom: 20px; // Mantiene el espacio debajo de los párrafos
+        color: nth($list: $azules-oscuros, $n: 5);
     }
 }
 

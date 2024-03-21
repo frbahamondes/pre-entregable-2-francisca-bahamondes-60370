@@ -63,7 +63,7 @@ button {
 
     /* Añade un poco de espacio entre los botones y el párrafo */
     margin-right: 20px;
-@include look-botones ($rojo-primario,$blanco-secundario);
+    @include look-botones ($rojo-primario, $blanco-secundario);
 
     &:hover {
         background-color: $blanco-secundario;
@@ -81,7 +81,7 @@ button {
 
     /* Añade un poco de espacio entre los botones y el párrafo */
     margin-right: 20px;
-    @include look-botones ($rojo-primario,$blanco-secundario);
+    @include look-botones ($rojo-primario, $blanco-secundario);
 
     /* Color de texto para los botones */
     border-radius: 50px;
@@ -127,7 +127,7 @@ h2 {
     }
 
     p {
-        color: nth($list: $azules-oscuros, $n:5);
+        color: nth($list: $azules-oscuros, $n: 5);
     }
 }
 
@@ -208,6 +208,36 @@ h2 {
     font-weight: bold;
 }
 
+/*Poner botones del bloque-2 (tarjetas) a la misma altura para que se vea ordenadito*/
+#bloque-2 {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        >div {
+            // Asegúrate de que esto selecciona tus columnas de tarjeta
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex: 1; // Esto hará que las columnas tengan la misma flexibilidad
+            margin: 10px;
+
+            h3 {
+                margin-top: 0;
+            }
+
+            p {
+                flex: 1; // Esto permite que el párrafo se expanda
+                margin-bottom: 10px; // Añade un espacio entre el párrafo y el botón
+            }
+
+            .boton-saber-mas {
+                align-self: flex-end; // Alinea el botón a la derecha
+            }
+        }
+    }
+}
 /*ESTILOS PARA LA TERCERA SECCIÓN DEL HOME*/
 
 #bloque-3 {
@@ -216,7 +246,7 @@ h2 {
     /* Color $rojo-primario con 50% de transparencia */
 
     p {
-        color: nth($list: $azules-oscuros, $n:5);
+        color: nth($list: $azules-oscuros, $n: 5);
     }
 
     .container {
@@ -293,20 +323,6 @@ h2 {
     }
 }
 
-@media (max-width: 768px) {
-    #bloque-3 {
-        .container {
-            flex-direction: column;
-        }
-
-        .column {
-            max-width: 100%;
-
-            /* Permite que las columnas ocupen todo el ancho disponible */
-        }
-    }
-}
-
 /*ESTILOS PARA LA CUARTA SECCIÓN DEL HOME*/
 
 #bloque-4 {
@@ -368,7 +384,7 @@ h2 {
         margin-bottom: 30px;
 
         /* Espacio debajo del párrafo */
-        color: nth($list: $azules-oscuros, $n:5);
+        color: nth($list: $azules-oscuros, $n: 5);
     }
 
     form {
@@ -400,7 +416,7 @@ h2 {
         }
 
         &[type="submit"] {
-            @include look-botones ($azul-primario,$blanco-secundario);
+            @include look-botones ($azul-primario, $blanco-secundario);
 
             /* Cursor de mano para indicar acción */
             transition: background-color 0.3s;
@@ -458,7 +474,7 @@ h2 {
         margin-bottom: 30px;
 
         /* Espacio debajo del párrafo */
-        color: nth($list: $azules-oscuros, $n:5);
+        color: nth($list: $azules-oscuros, $n: 5);
     }
 
     form {
@@ -490,7 +506,7 @@ h2 {
         }
 
         &[type="submit"] {
-            @include look-botones ($azul-primario,$blanco-secundario);
+            @include look-botones ($azul-primario, $blanco-secundario);
 
             /* Bordes redondeados */
             cursor: pointer;
@@ -547,7 +563,7 @@ h2 {
     }
 
     p {
-        color: nth($list: $azules-oscuros, $n:5);
+        color: nth($list: $azules-oscuros, $n: 5);
     }
 
     .article {

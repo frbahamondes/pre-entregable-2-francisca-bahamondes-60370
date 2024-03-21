@@ -1,3 +1,40 @@
+/*Media Queries para el bloque 3 del index*/
+@media (max-width: 768px) {
+    #bloque-3 {
+        .container {
+            flex-direction: column;
+        }
+
+        .column {
+            max-width: 100%;
+
+            /* Permite que las columnas ocupen todo el ancho disponible */
+        }
+    }
+}
+
+/*Media Queries seccion metodología*/
+@media (max-width: 768px) {
+    .seccion-metodologia {
+        .contenido-seccion {
+            flex-direction: column;
+        }
+
+        .imagen-derecha img {
+            margin-bottom: 20px;
+
+            /* Espacio debajo de la imagen en dispositivos móviles */
+        }
+    }
+}
+/*Media Queries bloque-3 otras páginas*/
+@media (max-width: 768px) {
+    #bloque-3-pagina .column {
+        flex: 0 1 100%;
+
+        /* Hace que las tarjetas ocupen todo el ancho en pantallas pequeñas */
+    }
+}
 /*MEDIDAS 100% Q RESPONSIVE*/
 /*Ajustes para tablets*/
 

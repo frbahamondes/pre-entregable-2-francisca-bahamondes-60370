@@ -69,20 +69,6 @@
     }
 }
 
-@media (max-width: 768px) {
-    .seccion-metodologia {
-        .contenido-seccion {
-            flex-direction: column;
-        }
-
-        .imagen-derecha img {
-            margin-bottom: 20px;
-
-            /* Espacio debajo de la imagen en dispositivos móviles */
-        }
-    }
-}
-
 /* Colores de fondo específicos para cada sección */
 
 #busqueda-constante {
